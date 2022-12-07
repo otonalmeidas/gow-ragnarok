@@ -17,13 +17,13 @@ export function Header() {
         />
 
         <div className='flex items-center justify-end'>
-          <span className='font-semibold text-sm'>
+          <span className='font-semibold text-base leading-[1.0625rem]'>
             Disponível para
           </span>
 
           <ul className='flex gap-2 ml-[1.125rem]'>
-            <li className='border border-white py-1 px-2 font-semibold text-sm leading-4'>PS4</li>
-            <li className='border border-white py-1 px-2 font-semibold text-sm leading-4'>PS5</li>
+            <li className='border border-white px-2 font-semibold text-base leading-[1.625rem]'>PS4</li>
+            <li className='border border-white px-2 font-semibold text-base leading-[1.625rem]'>PS5</li>
           </ul>
         </div>
       </div>
